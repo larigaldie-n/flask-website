@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Nathanael Larigaldie - Programming & Statistics Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='icons/apple-touch-icon.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='icons/favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='icons/favicon-16x16.png') }}">
+        <link rel="manifest" href="/manifest.webmanifest">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Logo -->
+						<h1><a href="index.html" id="logo">Nathanael Larigaldie</a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="publications.html">Scientific publications</a></li>
+								<li><a href="public-videos.html">Public speaking / Videos</a></li>
+								<li class="current"><a href="Programming-statistics.html">Programming & statistics projects</a></li>
+								<li><a href="cv.pdf">CV</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div id="content">
+
+							<!-- Content -->
+
+								<article>
+									<header>
+										<h2>Programming & statistics projects</h2>
+									</header>
+
+									<p>Throughout the years, I have done a lot of side projects involving many programming languages (to name a few, I have worked in Python, R, C, C++, C#, Javascript, Java, PHP, SQL, ...) and statistical analyses. But at the same time, I have this tendency to keep everything on my personal computer in unordered (and sometimes even unnamed) folders, and ultimately lose everything. </p>
+
+									<p>This page is an attempt to create a place where I feel compelled to gradually showcase some of these side projects. All codes can be found on my <a href="https://github.com/larigaldie-n">Github account</a>.</p>
+								</article>
+								<h4>(Click images to get to the code)</h6>
+								<section class="wrapper style1">
+									<div class="container">
+										<div class="row">
+											<section class="col-6 col-12-narrower">
+												<div class="box post">
+													<a href="https://github.com/larigaldie-n/eyeScrollR" class="image left"><img src="{{ url_for('static', filename='images/eyeScrollR.png') }}" alt="" /></a>
+													<div class="inner">
+														<h3>eyeScrollR</h3>
+														<p>An open-source R package designed to map eye tracking gaze & fixation coordinates to unscrolled content images. Writing of a scientific article to present this package is in progress</p>
+													</div>
+												</div>
+											</section>
+											<section class="col-6 col-12-narrower">
+												<div class="box post">
+													<a href="https://github.com/larigaldie-n/webscraping-jv-com" class="image left"><img src="{{ url_for('static', filename='images/webscrape.png') }}" alt="" /></a>
+													<div class="inner">
+														<h3>Webscraping <a href="https://www.jeuxvideo.com">www.jeuxvideo.com</a></h3>
+														<p>I wanted to try out <a href="https://beautiful-soup-4.readthedocs.io/en/latest/">BeautifulSoup</a> (a Python webscraping library), so I used it to create a .csv file with all video game review grades from the most visited video game website in France</p>
+													</div>
+												</div>
+											</section>
+										</div>
+										<div class="row">
+											<section class="col-6 col-12-narrower">
+												<div class="box post">
+													<a href="https://github.com/larigaldie-n/disease-spread" class="image left"><img src="{{ url_for('static', filename='images/with-vaccines.gif') }}" alt="" /></a>
+													<div class="inner">
+														<h3>Disease spreading model</h3>
+														<p>When Covid-19 vaccine disinformation started, I created a small video using a modified Conway's game of life in Python to show how non-perfect vaccines were still useful in a disease outbreak</p>
+													</div>
+												</div>
+											</section>
+											<section class="col-6 col-12-narrower">
+												<div class="box post">
+													<a href="https://github.com/larigaldie-n/data_science/tree/master/Python%20projects/BeachBoy%20BikeShare" class="image left"><img src="{{ url_for('static', filename='images/bike_share2.png') }}" alt="" /></a>
+													<div class="inner">
+														<h3>Predictive ML business scenario</h3>
+														<p>I did that one as a technical test in Python for a job interview. The idea was to predict bike renting around the San Francisco Bay Area in order to plan in advance when and where to move bikes between stations</p>
+													</div>
+												</div>
+											</section>
+										</div>
+										<div class="row">
+											<section class="col-6 col-12-narrower">
+												<div class="box post">
+													<a href="https://github.com/larigaldie-n/android-dice-roll-kotlin" class="image left"><img src="{{ url_for('static', filename='images/diceroll.png') }}" alt="" /></a>
+													<div class="inner">
+														<h3>Dice roll Android app</h3>
+														<p>I did some consultancy as an Android programmer for a few months, yet somehow this is the only Android project I managed to recover. This was just a very simple dice rolling app to try out Kotlin for once instead of Java</p>
+													</div>
+												</div>
+											</section>
+											<section class="col-6 col-12-narrower">
+												<div class="box post">
+													<a href="https://github.com/larigaldie-n/block-breaker" class="image left"><img src="{{ url_for('static', filename='images/BB.png') }}" alt="" /></a>
+													<div class="inner">
+														<h3>Block Breaker</h3>
+														<p>I wanted to try out Unity for a while, so I created this old-fashioned breaker game in C# from scratch. It's unfinished but playable (you can run it without building it in Android by downloading the "build" folder)</p>
+													</div>
+												</div>
+											</section>
+										</div>
+										<div class="row">
+											<section class="col-6 col-12-narrower">
+												<div class="box post">
+													<a href="https://github.com/larigaldie-n/flask-website" class="image left"><img src="{{ url_for('static', filename='images/website.png') }}" alt="" /></a>
+													<div class="inner">
+														<h3>This website</h3>
+														<p>It's not much, but this website runs on a simple Flask server</p>
+													</div>
+												</div>
+											</section>
+											<section class="col-6 col-12-narrower">
+												<div class="box post">
+													<a></a>
+													<div class="inner">
+														<h3></h3>
+														<p></p>
+													</div>
+												</div>
+											</section>
+										</div>
+									</div>
+								</section>
+
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<section class="col-6 col-12-narrower">
+							<h3>Links to my current & former labs</h3>
+							<ul class="links">
+								<li><a href="https://mgmt.au.dk/research">Aarhus University - School of Business and Social Sciences</a></li>
+								<li><a href="https://www.durham.ac.uk/departments/academic/psychology/">Durham University - Psychology Department</a></li>
+								<li><a href="https://uclouvain.be/en/faculties/psp">UCLouvain - Faculty of Psychology and Educational Sciences</a></li>
+							</ul>
+						</section>
+						<section class="col-6 col-12-narrower">
+							<h3>Other links</h3>
+							<ul class="links">
+								<li></li>
+							</ul>
+						</section>
+					</div>
+				</div>
+
+				<!-- Icons -->
+					<ul class="icons">
+						<li><a href="https://twitter.com/NathLarigaldie" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/larigaldie-n" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.linkedin.com/in/nathanael-larigaldie/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					</ul>
+
+				<!-- Copyright -->
+					<div class="copyright">
+						<ul class="menu">
+							<li>Backend (Flask) & Frontend: Nathanael Larigaldie</li>
+							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+	</div>
+
+	<!-- Scripts -->
+		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.dropotron.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+	</body>
+</html>
